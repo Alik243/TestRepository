@@ -24,7 +24,11 @@ namespace GitApp
         {
             InitializeComponent();
 
-            tbText.Text = "hello world";
+            int a = 5;
+            int b = 15;
+
+            var c = a + b;
+            tbText.Text = c.ToString();
         }
     }
 }
